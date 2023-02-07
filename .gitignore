@@ -1,0 +1,6 @@
+desktop.ini
+.DS_Store
+.netbeans.xml
+.env
+node_modules
+public/*

@@ -1,0 +1,43 @@
+{
+  "name": "rig-react",
+  "description": "",
+  "version": "1.0.0",
+  "author": "RiG",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1",
+    "dev": "webpack --mode development --config ./src/webpack.config.dev.js --watch",
+    "build": "webpack --mode production --config ./src/webpack.config.js",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20",
+    "@babel/preset-env": "^7.20",
+    "@babel/preset-react": "^7.18",
+    "babel-loader": "^9.1",
+    "css-loader": "^6.7",
+    "express": "^4.1",
+    "html-webpack-plugin": "^5.5",
+    "react-dom": "^18.2",
+    "react": "^18.2",
+    "sass-loader": "^13.2",
+    "sass": "^1.57.1",
+    "webpack-cli": "^5.0.1",
+    "webpack": "^5.74"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.31",
+    "eslint-webpack-plugin": "^3.2",
+    "eslint": "^8.28",
+    "stylelint-config-standard-scss": "^6.1",
+    "stylelint-webpack-plugin": "^3.3",
+    "stylelint": "^14.15",
+    "webpack-merge": "^5.8"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "engines": {
+    "node": "^18",
+    "npm": "^8"
+  }
+}
