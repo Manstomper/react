@@ -1,5 +1,7 @@
 version: "3.8"
 
+volumes:
+  db:
 services:
   node:
     image: node:18.12.1-alpine3.16
@@ -9,3 +11,7 @@ services:
       - ./:/usr/src
     working_dir: /usr/src
     command: npm start
+  mongodb:
+    image: mongo:6.0.4
+    volumes:
+      - db:/data/db

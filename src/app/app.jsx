@@ -24,7 +24,7 @@ const FormExample = () => {
     setValues([...values, newValue]);
   };
 
-  console.debug(values);
+  //console.debug(values);
 
   return (
     <form onSubmit={handleSubmit}>
@@ -54,7 +54,7 @@ const TreasureHunt = () => {
     };
   };
 
-  console.debug(moves);
+  //console.debug(moves);
 
   return (
     <div>
