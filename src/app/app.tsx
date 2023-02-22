@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import Foo from './src/components/foo';
 
 const Bar = (props) => <p>{parseInt(props.x || 0) + parseInt(props.y || 0)}</p>;

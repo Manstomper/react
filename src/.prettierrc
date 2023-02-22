@@ -8,7 +8,9 @@
     {
       "files": [
         "*.js",
-        "*.jsx"
+        "*.jsx",
+        "*.ts",
+        "*.tsx"
       ],
       "options": {
         "singleQuote": true
